@@ -1,0 +1,6 @@
+1.http://10.8.1.98/svn/doc/trunk/szy-edu-admin
+2.http://10.8.1.98/svn/szy-edu/szy-edu-service/tags/2.2.6
+3.http://10.8.1.98/svn/szy-edu-util/tags/2.2.4
+4.http://10.8.1.98/svn/szy-edu/szy-edu-assember/tags/2.2.6
+5.http://10.8.1.98/svn/szy-edu/szy-edu-webapp/tags/2.2.6
+6./home/szy/opt/development-web.sh szy-edu-webapp-pre szy-edu-webapp-2.2.6 web_tomcat

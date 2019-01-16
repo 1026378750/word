@@ -1,0 +1,36 @@
+git init //初始化库
+git add . //添加本地资源
+git commit -m"注释" //提交代码
+git log //日志
+git checkout//返回版本号
+git status //查询状态
+
+git remote add origin https://github.com/1026378750/szy_web.git //链接线上github库
+git push -u origin master //推到线上库
+
+gir pull //拉去线上代码
+
+git remote add origin https://github.com/1026378750/3rdedu_android.git
+git push -u origin master
+
+git remote add origin https://github.com/1026378750/AndroidUtil.git
+git push -u origin master
+
+
+git remote add origin https://github.com/1026378750/word.git
+git push -u origin master
+
+
+
+错误描述: 
+git提交时提示错误：The file will have its original line endings in your working directory. 
+好像是mac的文件，然后拷贝到windows上就会出现这个问题，我的是这样的
+
+解决办法 
+执行命令 
+
+git rm -r –cached ./ 
+
+git config core.autocrlf false 
+
+git add ./
